@@ -13,6 +13,7 @@ app.use( express.json() )
 app.use( cors() )
 
 app.use('api/auth/user', require('./routers/user.auth.route'))
+app.use('api/user', require('./routers/user.route'))
 
 
 

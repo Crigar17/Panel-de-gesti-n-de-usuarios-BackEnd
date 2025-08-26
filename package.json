@@ -12,6 +12,7 @@
   "author": "Cristhian Alejandro Garcia Rojas/Joseph Alejandro Cardenas Palacio",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
