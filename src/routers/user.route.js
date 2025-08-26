@@ -1,5 +1,5 @@
 const express = require('express')
-const { patchUser } = require('../controllers/user.controller')
+const { patchUser, getUserById } = require('../controllers/user.controller')
 const authUser = require('../middlewares/auth')
 
 const route = express.Router()

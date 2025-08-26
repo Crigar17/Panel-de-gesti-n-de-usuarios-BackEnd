@@ -12,8 +12,14 @@ app.use( express.json() )
 
 app.use( cors() )
 
-app.use('api/auth/user', require('./routers/user.auth.route'))
-app.use('api/user', require('./routers/user.route'))
+app.use('/api/auth/user', require('./routers/user.auth.route'))
+app.use('/api/user', require('./routers/user.route'))
+app.use('/api/cliente', require('./routers/cllente.route'))
+app.use('/api/producto', require('./routers/producto.route'))
+app.use('/api/cuenta', require('./routers/cuenta.route'))
+app.use('/api/tarjeta', require('./routers/tarjeta.route'))
+app.use('/api/prestamo', require('./routers/prestamo.route'))
+app.use('/api/historial', require('./routers/historial.route'))
 
 
 
