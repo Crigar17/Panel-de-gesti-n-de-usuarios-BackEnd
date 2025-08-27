@@ -2,21 +2,22 @@ const bcrypt = require('bcrypt')
 
 const userModel = require('../models/user.model')
 const { generateToken } = require('../helpers/auth')
+const { insertUser, readUserByEmail } = require('../services/auth.user.service')
 
 const register = async (req, res) => {
     const inputData = req.body
-    
+
     try {
         let rondaEncriptacion = 10
         const claveEncriptada = await bcrypt.hash(inputData.password, rondaEncriptacion)
-
         inputData.password = claveEncriptada
         
-        const data = await userModel.create( inputData )
-
+        const userNew = insertUser( inputData );
+        const data = await userNew.save();
         res.json( data )
     } 
     catch (error) {
+        console.error(error)
         res.status(400).json({msg: 'Error al registar usuario'})
     }
 }
@@ -25,7 +26,7 @@ const login = async (req, res) => {
     const inputData = req.body
 
     try {
-        const data = await userModel.findOne({email: inputData.email})
+        const data = await readUserByEmail( inputData.email );
         if( !data ) return res.status(400).json('Usuario no encontrado')
 
         console.log('input', inputData);

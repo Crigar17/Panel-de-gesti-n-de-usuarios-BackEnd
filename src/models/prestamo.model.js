@@ -20,6 +20,6 @@ estadoPrestamo: {
     default: "vigente",
 },
 });
-const prestamoModel = producto.discriminator("Prestamo", prestamoSchema);
+const prestamoModel = producto.discriminator("prestamo", prestamoSchema);
 
 module.exports = prestamoModel;
