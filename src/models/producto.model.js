@@ -22,11 +22,11 @@ const productShema = new mongoose.Schema({
     },
 },
 {
-    versionKey: false,
+    discriminatorKey: "categoria",
     timestamps: true, 
 }
 )
 
-const productModel = mongoose.model('user', productShema)
+const productModel = mongoose.model('producto', productShema)
 
 module.exports = productModel

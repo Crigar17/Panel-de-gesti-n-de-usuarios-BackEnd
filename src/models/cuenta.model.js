@@ -21,6 +21,6 @@ moneda: {
 },
 });
 
-const cuentaModel = mongoose.model('cuenta', cuentaSchema)
+const cuentaModel = producto.discriminator('cuenta', cuentaSchema)
 
 module.exports = cuentaModel
