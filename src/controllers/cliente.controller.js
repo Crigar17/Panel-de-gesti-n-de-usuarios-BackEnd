@@ -1,11 +1,13 @@
 const clientModel = require('../models/cliente.model')
+const { insertCliente, clienteGet, clienteGetById, clientePatch } = require('../services/cliente.service')
 
 const postClient = async (req, res) => {
     const inputData = req.body
 
     try {
-        const data = await clientModel.create( inputData )
-
+        const cleinteNew = insertCliente( inputData )
+        const data = await cleinteNew.save()
+        
         res.status(200).json( data )
     } 
     catch (error) {
@@ -15,7 +17,7 @@ const postClient = async (req, res) => {
 
 const getClient = async (req, res) => {
     try {
-        const data = await clientModel.find()
+        const data = await clienteGet()
 
         res.status(200).json( data )
     } 
@@ -28,7 +30,7 @@ const getByIdClient = async (req, res) => {
     const id = req.params.id
 
     try {
-        const data = await clientModel.findById( id )
+        const data = await clienteGetById( id )
 
         res.status(200).json( data )
     } 
@@ -42,7 +44,7 @@ const patchClient = async (req, res) => {
     const inputData = req.body
 
     try {
-        const data = await clientModel.findByIdAndUpdate( id, inputData, {new: true} )
+        const data = await clientePatch( id, inputData)
 
         res.status(200).json( data )
     } 

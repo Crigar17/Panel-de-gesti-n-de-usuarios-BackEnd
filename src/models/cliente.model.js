@@ -17,7 +17,7 @@ const clientShema = new mongoose.Schema({
         timber: true
     },
     telefono: {
-        type: String,
+        type: Number,
         unique: [true, 'El telefono debe ser unico'],
         required: [true, 'El telefono es obligatorio'],
         timber: true

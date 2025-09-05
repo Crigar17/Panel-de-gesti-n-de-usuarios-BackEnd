@@ -4,10 +4,10 @@ const authUser = require('../middlewares/auth')
 
 const route = express.Router()
 
-route.post('/', postCuenta,authUser)
-route.get('/', getCuenta, authUser)
-route.get('/:id', getByIdCuenta, authUser)
-route.patch('/:id', patchCuenta, authUser)
+route.post('/', authUser, postCuenta)
+route.get('/', authUser, getCuenta)
+route.get('/:id', authUser, getByIdCuenta)
+route.patch('/:id', authUser, patchCuenta)
 
 
 module.exports = route

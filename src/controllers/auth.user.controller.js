@@ -36,7 +36,8 @@ const login = async (req, res) => {
 
         if( userPassword ){
             const token = generateToken(inputData)
-            return res.status(200).json({token: token, msg: 'Logueado'})
+            const userData = data.toObject()
+            return res.status(200).json({token: token, msg: 'Logueado', user: userData})
         }
         else{
             return res.send({msg: 'Contraseña incorrecta'})
