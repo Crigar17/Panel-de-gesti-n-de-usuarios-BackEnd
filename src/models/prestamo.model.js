@@ -1,3 +1,5 @@
+const { default: mongoose } = require("mongoose");
+
 const prestamoSchema = new mongoose.Schema({
 monto: { 
     type: Number, 
@@ -20,6 +22,6 @@ estadoPrestamo: {
     default: "vigente",
 },
 });
-const prestamoModel = producto.discriminator("prestamo", prestamoSchema);
+const prestamoModel = mongoose.model("prestamo", prestamoSchema);
 
 module.exports = prestamoModel;

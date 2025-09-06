@@ -1,60 +1,63 @@
-const cuentaModel = require('../models/cuenta.model')
+const { insertCuenta, cuentGet, cuentaGetById, cuentaPatch } = require("../services/cuenta.service")
 
-const postCuenta = async (req, res) => {
+createCuenta = async (req, res) => {
     const inputData = req.body
 
     try {
-        const data = await cuentaModel.create( inputData )
+        const cuentaNew = insertCuenta( inputData )
 
-        res.status(200).json( data )
+        const data = await cuentaNew.save()
+        
+        res.status(200).json(data)
     } 
     catch (error) {
         res.status(400).json({msg: 'Error al crear cuenta'})
     }
 }
 
-const getCuenta = async (req, res) => {
+getCuenta = async (req, res) => {
     try {
-        const data = await cuentaModel.find()
+        const data = await cuentGet()
 
-        res.status(200).json( data )
+        res.status(200).json(data)
     } 
     catch (error) {
-        res.status(400).json({msg: 'Error al obtener cuentas'})
+        res.status(400).json({msg: 'Error al obtener las cuentas'})
     }
 }
 
-const getByIdCuenta = async (req, res) => {
+getCuentaById = async (req, res) => {
     const id = req.params.id
 
     try {
-        const data = await cuentaModel.findById( id )
+        const data = await cuentaGetById( id )
 
-        res.status(200).json( data )
+        res.status(200).json(data)
     } 
     catch (error) {
-        res.status(400).json({msg: 'Error al obtener la cuenta'})    
+        res.status(400).json({msg: 'Error al obtener la cuenta por id'})
     }
 }
 
-const patchCuenta = async (req, res) => {
+patchCuenta = async (req, res) => {
     const id = req.params.id
     const inputData = req.body
 
     try {
-        const data = await cuentaModel.findByIdAndUpdate( id, inputData, {new: true} )
+        const data = await cuentaPatch(id, inputData)
 
-        res.status(200).json( data )
+        res.status(200).json(data)
+
     } 
     catch (error) {
-        res.status(400).json({msg: 'Error al actualizar cuenta'})
+        res.status(400).json({msg: 'Erro al actualizar ciente'})
     }
 }
 
 
 module.exports = {
-    postCuenta,
+    createCuenta,
     getCuenta,
-    getByIdCuenta,
+    getCuentaById,
     patchCuenta
 }

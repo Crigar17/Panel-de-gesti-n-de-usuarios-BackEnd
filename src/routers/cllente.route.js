@@ -1,5 +1,5 @@
 const express = require('express')
-const { postClient, getClient, getByIdClient, patchClient } = require('../controllers/cliente.controller')
+const { postClient, getClient, getByIdClient, patchClient } = require('../controllers/cliente.controller.js')
 const authUser = require('../middlewares/auth')
 
 const route = express.Router()
