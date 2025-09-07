@@ -1,3 +1,5 @@
+const { default: mongoose } = require("mongoose");
+
 const tarjetaSchema = new mongoose.Schema({
 
 numeroTarjeta: { 
@@ -28,6 +30,6 @@ estadoTarjeta: {
     default: "activa",
 },
 });
-const tarjetaModel = producto.discriminator("Tarjeta", tarjetaSchema);
+const tarjetaModel = mongoose.model("Tarjeta", tarjetaSchema);
 
 module.exports= tarjetaModel

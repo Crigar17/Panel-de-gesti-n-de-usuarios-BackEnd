@@ -18,6 +18,7 @@ app.use('/api/cliente', require('./routers/cllente.route.js'))
 app.use('/api/productos', require('./routers/productos.route.js'))
 app.use('/api/cuenta', require('./routers/cuenta.route.js'))
 app.use('/api/prestamo', require('./routers/prestamo.route.js'))
+app.use('/api/tarjeta', require('./routers/tarjeta.route.js'))
 
 
 
