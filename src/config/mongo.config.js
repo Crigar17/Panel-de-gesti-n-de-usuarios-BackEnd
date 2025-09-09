@@ -1,12 +1,13 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
+const logger = require('../logs/logger.js');
 
 async function dbConnect(){
     try {
         await mongoose.connect(process.env.DB_URI)
-        console.log('Base de datos conectada');
+        logger.info('Base de datos conectada');
     } 
     catch (error) {
-        console.error('Error al conectar a la base de datos')
+        logger.error('Error al conectar a la base de datos')
     }
 }
 

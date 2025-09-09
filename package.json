@@ -7,7 +7,7 @@
     "dev": "node --env-file .env --watch src/index.js"
   },
   "keywords": [
-    "express-mongoose-jswtoken-cors-bcript"
+    "express-mongoose-jswtoken-cors-bcript-winston-winston-mongodb"
   ],
   "author": "Cristhian Alejandro Garcia Rojas/Joseph Alejandro Cardenas Palacio",
   "license": "ISC",
@@ -16,6 +16,8 @@
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.18.0"
+    "mongoose": "^8.18.0",
+    "winston": "^3.17.0",
+    "winston-mongodb": "^7.0.1"
   }
 }

@@ -1,6 +1,7 @@
 const express = require('express')
 const cors = require('cors')
 const dbConnect = require('./config/mongo.config.js')
+const logger = require('./logs/logger.js')
 
 const app = express()
 
@@ -25,9 +26,9 @@ app.use('/api/tarjeta', require('./routers/tarjeta.route.js'))
 
 app.listen(port,()=>{
     try {
-        console.log('Servidor corriendo en el puerto:', port);
+        logger.info('Servidor corriendo en el puerto:', port);
     } 
     catch (error) {
-        console.error('Error al conectar al servidor')
+        logger.error('Error al conectar al servidor')
     }
 })
