@@ -1,60 +1,76 @@
-const bcrypt = require('bcrypt')
-const { generateToken } = require('../helpers/auth')
-const { insertUser, readUserByEmail } = require('../services/auth.user.service')
-const logger = require('../logs/logger')
+
+const bcrypt = require('bcrypt');
+const userModel = require('../models/user.model');
+const { generateToken } = require('../helpers/auth');
+const { insertUser, readUserByEmail } = require('../services/auth.user.service');
 
 const register = async (req, res) => {
-    const inputData = req.body
+    const inputData = req.body;
+
+    console.log('register');
 
     try {
-        let rondaEncriptacion = 10
-        const claveEncriptada = await bcrypt.hash(inputData.password, rondaEncriptacion)
-        inputData.password = claveEncriptada
+        let rondaEncriptacion = 10;
+        const claveEncriptada = await bcrypt.hash(inputData.password, rondaEncriptacion);
+        inputData.password = claveEncriptada;
         
-        const userNew = insertUser( inputData );
+        // CORRECCIÓN: Agregar await aquí
+        const userNew = insertUser(inputData);
         const data = await userNew.save();
-
-        logger.info('El Usuario se ha registrado')
-
-        res.json( data )
+        res.json(data);
     } 
     catch (error) {
-        logger.error('Error al crear usuario')
-
-        res.status(400).json({msg: 'Error al registar usuario'})
+        console.error('Error en registro:', error);
+        res.status(400).json({msg: 'Error al registrar usuario', error: error.message});
     }
 }
 
 const login = async (req, res) => {
-    const inputData = req.body
+    const inputData = req.body;
 
     try {
-        const data = await readUserByEmail( inputData.email );
-        logger.info('Usuario logeado')
-        if( !data ) return  res.status(400).json('Usuario no encontrado')
+        // CORRECCIÓN: Agregar await si readUserByEmail es async
+        const data = await readUserByEmail(inputData.email);
+        if (!data) return res.status(400).json({msg: 'Usuario no encontrado'});
 
-        console.log('input', inputData);
-        console.log('mongo', user);
+        console.log('Datos del usuario encontrado:', data);
 
-        const userPassword = await bcrypt.compare(inputData.password, data.password)
+        // Verificar que data.password existe
+        if (!data.password) {
+            return res.status(500).json({msg: 'Error en los datos del usuario'});
+            }
+        
+        const userPassword = bcrypt.compare(inputData.password, data.password)
+        console.log('Resultado comparación:', userPassword);
 
-        if( userPassword ){
-            const token = generateToken({id: data._id,email: data.email})
-            const userData = data.toObject()
-            return res.status(200).json({token: token, msg: 'Logueado', user: userData})
+        if (userPassword) {
+            // CORRECCIÓN: Generar token con los datos correctos (probablemente data en lugar de inputData)
+            const token = generateToken({
+                id: data._id,
+                email: data.email,
+                // otros datos que necesites en el token
+            });
+            
+            const userData = data.toObject ? data.toObject() : data;
+            // Eliminar la contraseña del objeto de respuesta por seguridad
+            delete userData.password;
+            
+            return res.status(200).json({
+                token: token, 
+                msg: 'Logueado', 
+                user: userData
+            });
+        } else {
+            return res.status(401).json({msg: 'Contraseña incorrecta'});
         }
-        else{
-            return res.send({msg: 'Contraseña incorrecta'})
-        }
-    } 
+    }
     catch (error) {
-        logger.error('Error al logear el usuario')
-
-        res.status(400).json({msg:"Error al loguear"})
+        console.error('Error en login:', error);
+        res.status(400).json({msg: "Error al loguear", error: error.message});
     }
 }
 
 module.exports = {
     register,
     login
-}
+};
