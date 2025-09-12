@@ -6,7 +6,7 @@ const getUserById = async (req, res) => {
     const id = req.params.id
 
     try {
-        const data = await userById( id )
+        const data = await userById( id ).populate("cliente")
 
         logger.info('Usuario encontrado con su id:' + id)
 

@@ -17,7 +17,7 @@ const userShema = new mongoose.Schema({
         unique: [true, 'La contraseña debe ser unica'],
         required: [true, 'La contraseña es obligatoria'],
         lowercase: true,
-        trim: true
+        trim: true,
     },
     rol:{
         type: String,

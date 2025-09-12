@@ -6,6 +6,10 @@ numeroCuenta: {
     unique: true,
     required: true,
 },
+clienteId: {
+    type: mongoose.Schema.ObjectId,
+    ref: "cliente"
+},
 tipoCuenta: {
     type: String,
     enum: ["ahorros", "corriente", "nómina", "inversión"],

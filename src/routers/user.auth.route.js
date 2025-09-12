@@ -5,6 +5,6 @@ const authUser = require('../middlewares/auth')
 const route = express.Router()
 
 route.post('/register', register)
-route.post('/login', authUser, login)
+route.post('/login', login)
 
 module.exports = route

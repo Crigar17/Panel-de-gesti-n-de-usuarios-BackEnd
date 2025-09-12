@@ -6,10 +6,9 @@ const productShema = new mongoose.Schema({
         enum: ["account", "card", "loan"],
         required: true,
     },
-    client: {
+    cliente: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: "Client",
-        required: true,
+        ref: "cliente"
     },
     status: {
         type: String,

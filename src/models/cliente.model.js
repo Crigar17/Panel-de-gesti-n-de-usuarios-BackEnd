@@ -9,11 +9,15 @@ const clientShema = new mongoose.Schema({
         required: [true, 'El nombre es requerido'],
         timber: true
     },
+    userId:{
+        type: mongoose.Schema.ObjectId,
+        ref: "user",
+        require: true
+    },
     documento: {
         type: String,
         enum: ['CC', 'Int','Pasaporte'],
         required: [true, 'El documeto es requerido'],
-        unique: [true, 'El docuemnto debe ser unico'],
         timber: true
     },
     telefono: {
@@ -24,7 +28,6 @@ const clientShema = new mongoose.Schema({
     },
     direccion: {
         type: String,
-        unique: [true, 'La direccion debe ser unica'],
         required: [true, 'La direccion es requerida'],
     },
     estado: {

@@ -235,3 +235,252 @@
 [2025-09-11T06:25:59.870Z] info: Base de datos conectada 
 [2025-09-11T06:26:24.000Z] info: Servidor corriendo en el puerto: 
 [2025-09-11T06:26:25.043Z] info: Base de datos conectada 
+[2025-09-12T02:34:29.401Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T02:34:31.462Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T02:34:32.810Z] info: Base de datos conectada 
+[2025-09-12T02:39:55.467Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T02:39:57.371Z] info: Base de datos conectada 
+[2025-09-12T02:46:50.518Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T02:46:52.702Z] info: Base de datos conectada 
+[2025-09-12T02:54:30.156Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T02:54:32.276Z] info: Base de datos conectada 
+[2025-09-12T02:58:31.654Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T02:58:33.423Z] info: Base de datos conectada 
+[2025-09-12T03:00:17.802Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:00:18.903Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:00:22.852Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:00:23.813Z] info: Base de datos conectada 
+[2025-09-12T03:00:28.079Z] info: Usuario encontrado con su id:68b21e16ec9a7f7c6532ee78 
+[2025-09-12T03:00:29.050Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:00:30.143Z] info: Base de datos conectada 
+[2025-09-12T03:03:24.574Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:03:26.449Z] info: Base de datos conectada 
+[2025-09-12T03:03:55.498Z] info: Usuario encontrado con su id:68b21e16ec9a7f7c6532ee78 
+[2025-09-12T03:03:59.351Z] info: Usuario encontrado con su id:68b21e16ec9a7f7c6532ee78 
+[2025-09-12T03:05:07.536Z] info: Usuario encontrado con su id:68b21e16ec9a7f7c6532ee78 
+[2025-09-12T03:05:33.132Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:05:34.835Z] info: Base de datos conectada 
+[2025-09-12T03:06:10.892Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:06:12.084Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:06:13.016Z] info: Base de datos conectada 
+[2025-09-12T03:07:35.747Z] info: Usuario encontrado con su id:68b21e16ec9a7f7c6532ee78 
+[2025-09-12T03:08:47.932Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:08:49.476Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:08:50.399Z] info: Base de datos conectada 
+[2025-09-12T03:08:50.849Z] info: Usuario Actualizado 
+[2025-09-12T03:09:06.587Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:09:07.584Z] info: Base de datos conectada 
+[2025-09-12T03:09:07.923Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:09:10.068Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:09:14.716Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:09:15.688Z] info: Base de datos conectada 
+[2025-09-12T03:09:29.432Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:09:30.358Z] info: Base de datos conectada 
+[2025-09-12T03:09:31.041Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:09:32.420Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:09:43.776Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:09:45.057Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:09:46.048Z] info: Base de datos conectada 
+[2025-09-12T03:09:47.216Z] info: Usuario Actualizado 
+[2025-09-12T03:10:10.044Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:10:11.295Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:10:12.232Z] info: Base de datos conectada 
+[2025-09-12T03:10:46.169Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:10:47.101Z] info: Base de datos conectada 
+[2025-09-12T03:13:48.459Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:13:49.982Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:13:51.169Z] info: Base de datos conectada 
+[2025-09-12T03:13:59.829Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:14:02.383Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:14:14.504Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:14:22.797Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:14:23.741Z] info: Base de datos conectada 
+[2025-09-12T03:14:43.257Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:14:44.816Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:14:51.606Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:15:11.910Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:15:13.691Z] info: Base de datos conectada 
+[2025-09-12T03:15:15.291Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:15:16.660Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:15:17.705Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:15:55.642Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:15:56.954Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:15:57.869Z] info: Base de datos conectada 
+[2025-09-12T03:15:58.922Z] info: Usuario Actualizado 
+[2025-09-12T03:16:13.669Z] info: Usuario Actualizado 
+[2025-09-12T03:16:34.351Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:16:35.673Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:16:37.073Z] info: Base de datos conectada 
+[2025-09-12T03:16:37.164Z] info: Usuario Actualizado 
+[2025-09-12T03:16:57.801Z] info: Usuario Actualizado 
+[2025-09-12T03:17:15.091Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:17:16.093Z] info: Base de datos conectada 
+[2025-09-12T03:17:26.470Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:17:27.513Z] info: Base de datos conectada 
+[2025-09-12T03:18:02.527Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:18:03.683Z] info: Base de datos conectada 
+[2025-09-12T03:18:11.128Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:18:22.495Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:18:23.607Z] info: Base de datos conectada 
+[2025-09-12T03:18:28.101Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:18:29.107Z] info: Base de datos conectada 
+[2025-09-12T03:18:29.940Z] info: Usuario Actualizado 
+[2025-09-12T03:18:53.956Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:18:55.813Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:18:56.823Z] info: Base de datos conectada 
+[2025-09-12T03:22:35.680Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:22:38.050Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:22:38.445Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:22:39.045Z] info: Base de datos conectada 
+[2025-09-12T03:22:40.390Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:22:59.652Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:23:00.631Z] info: Base de datos conectada 
+[2025-09-12T03:23:01.414Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:23:02.920Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:23:11.985Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:23:12.983Z] info: Base de datos conectada 
+[2025-09-12T03:23:27.668Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:23:28.637Z] info: Base de datos conectada 
+[2025-09-12T03:24:37.430Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:24:38.519Z] info: Base de datos conectada 
+[2025-09-12T03:25:10.716Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:25:30.046Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:25:31.034Z] info: Base de datos conectada 
+[2025-09-12T03:25:31.500Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:26:04.127Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:26:06.499Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:26:07.522Z] info: Base de datos conectada 
+[2025-09-12T03:26:11.782Z] error: Error al actuliazar el usuario 
+[2025-09-12T03:27:29.503Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:27:31.380Z] info: Base de datos conectada 
+[2025-09-12T03:27:35.543Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:27:36.514Z] info: Base de datos conectada 
+[2025-09-12T03:28:46.952Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:28:49.634Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:28:50.567Z] info: Base de datos conectada 
+[2025-09-12T03:29:12.798Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:29:14.043Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:29:15.002Z] info: Base de datos conectada 
+[2025-09-12T03:34:18.484Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:34:20.119Z] info: Base de datos conectada 
+[2025-09-12T03:34:39.978Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:34:40.904Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:34:41.939Z] info: Base de datos conectada 
+[2025-09-12T03:34:47.892Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:34:49.354Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:34:50.477Z] info: Base de datos conectada 
+[2025-09-12T03:36:00.438Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:36:01.647Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:36:03.049Z] info: Base de datos conectada 
+[2025-09-12T03:36:41.624Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:36:42.671Z] info: Base de datos conectada 
+[2025-09-12T03:51:29.236Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T03:51:30.991Z] info: Base de datos conectada 
+[2025-09-12T04:25:39.396Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:25:40.644Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:25:41.981Z] info: Base de datos conectada 
+[2025-09-12T04:27:33.878Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:27:35.777Z] info: Base de datos conectada 
+[2025-09-12T04:27:37.631Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:27:38.600Z] info: Base de datos conectada 
+[2025-09-12T04:29:53.392Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:29:56.095Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:29:57.025Z] info: Base de datos conectada 
+[2025-09-12T04:30:16.288Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:30:17.330Z] info: Base de datos conectada 
+[2025-09-12T04:31:08.353Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:31:10.100Z] info: Base de datos conectada 
+[2025-09-12T04:31:52.158Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:31:53.191Z] info: Base de datos conectada 
+[2025-09-12T04:33:10.255Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:33:11.942Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:33:12.962Z] info: Base de datos conectada 
+[2025-09-12T04:33:44.185Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:33:46.116Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:33:47.159Z] info: Base de datos conectada 
+[2025-09-12T04:34:25.757Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:34:27.596Z] info: Base de datos conectada 
+[2025-09-12T04:34:41.820Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:34:42.946Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:34:43.901Z] info: Base de datos conectada 
+[2025-09-12T04:35:03.720Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:35:04.801Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:35:05.852Z] info: Base de datos conectada 
+[2025-09-12T04:35:44.706Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:35:45.919Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:35:47.222Z] info: Base de datos conectada 
+[2025-09-12T04:40:06.185Z] error: Error al crear el cliente 
+[2025-09-12T04:40:30.207Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:40:31.640Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:40:32.880Z] info: Base de datos conectada 
+[2025-09-12T04:40:48.271Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:40:49.708Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:40:50.748Z] info: Base de datos conectada 
+[2025-09-12T04:41:00.464Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:41:01.456Z] info: Base de datos conectada 
+[2025-09-12T04:41:16.841Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:41:17.831Z] info: Base de datos conectada 
+[2025-09-12T04:41:21.494Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:41:22.529Z] info: Base de datos conectada 
+[2025-09-12T04:42:08.902Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:42:09.938Z] info: Base de datos conectada 
+[2025-09-12T04:43:12.295Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:43:14.687Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:43:15.883Z] info: Base de datos conectada 
+[2025-09-12T04:43:16.907Z] error: Error al crear el cliente 
+[2025-09-12T04:43:19.569Z] error: Error al crear el cliente 
+[2025-09-12T04:43:20.809Z] error: Error al crear el cliente 
+[2025-09-12T04:43:21.823Z] error: Error al crear el cliente 
+[2025-09-12T04:44:17.252Z] error: Error al crear el cliente 
+[2025-09-12T04:44:26.681Z] error: Error al crear el cliente 
+[2025-09-12T04:44:27.910Z] error: Error al crear el cliente 
+[2025-09-12T04:44:29.535Z] error: Error al crear el cliente 
+[2025-09-12T04:45:05.123Z] error: Error al crear el cliente 
+[2025-09-12T04:45:12.372Z] error: Error al crear el cliente 
+[2025-09-12T04:45:18.974Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:45:20.777Z] info: Base de datos conectada 
+[2025-09-12T04:45:22.685Z] error: Error al crear el cliente 
+[2025-09-12T04:46:04.809Z] error: Error al crear el cliente 
+[2025-09-12T04:46:09.267Z] error: Error al crear el cliente 
+[2025-09-12T04:46:30.582Z] error: Error al crear el cliente 
+[2025-09-12T04:46:38.114Z] info: Cliente creado exitosamente 
+[2025-09-12T04:48:08.707Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:48:10.639Z] info: Base de datos conectada 
+[2025-09-12T04:48:10.729Z] error: Error al crear el cliente 
+[2025-09-12T04:48:12.951Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:48:13.880Z] info: Base de datos conectada 
+[2025-09-12T04:48:20.171Z] error: Error al crear el cliente 
+[2025-09-12T04:48:21.141Z] error: Error al crear el cliente 
+[2025-09-12T04:48:44.796Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:48:45.753Z] info: Base de datos conectada 
+[2025-09-12T04:49:06.961Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:49:08.028Z] info: Base de datos conectada 
+[2025-09-12T04:49:09.322Z] error: Error al crear el cliente 
+[2025-09-12T04:49:18.501Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:49:20.419Z] info: Base de datos conectada 
+[2025-09-12T04:49:29.313Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:49:30.401Z] info: Base de datos conectada 
+[2025-09-12T04:49:31.523Z] error: Error al crear el cliente 
+[2025-09-12T04:49:32.567Z] error: Error al crear el cliente 
+[2025-09-12T04:49:48.724Z] error: Error al crear el cliente 
+[2025-09-12T04:49:49.841Z] error: Error al crear el cliente 
+[2025-09-12T04:49:50.884Z] error: Error al crear el cliente 
+[2025-09-12T04:49:54.003Z] error: Error al crear el cliente 
+[2025-09-12T04:49:54.920Z] error: Error al crear el cliente 
+[2025-09-12T04:49:57.806Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:49:58.797Z] info: Base de datos conectada 
+[2025-09-12T04:50:19.576Z] error: Error al crear el cliente 
+[2025-09-12T04:50:29.103Z] error: Error al crear el cliente 
+[2025-09-12T04:50:42.414Z] error: Error al crear el cliente 
+[2025-09-12T04:51:00.497Z] error: Error al crear el cliente 
+[2025-09-12T04:51:01.526Z] error: Error al crear el cliente 
+[2025-09-12T04:51:07.867Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:51:09.535Z] info: Base de datos conectada 
+[2025-09-12T04:51:10.619Z] error: Error al crear el cliente 
+[2025-09-12T04:51:45.421Z] info: Cliente creado exitosamente 
+[2025-09-12T04:51:52.370Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:51:53.437Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T04:51:54.411Z] info: Base de datos conectada 
+[2025-09-12T05:45:34.988Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T05:45:35.781Z] info: Servidor corriendo en el puerto: 
+[2025-09-12T05:45:37.375Z] info: Base de datos conectada 

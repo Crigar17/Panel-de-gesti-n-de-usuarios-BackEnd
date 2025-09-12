@@ -22,7 +22,7 @@ const postClient = async (req, res) => {
 
 const getClient = async (req, res) => {
     try {
-        const data = await clienteGet()
+        const data = await clienteGet().populate("user").populate("cuenta").populate("prestamo").populate("producto").populate("tarejta")
 
         logger.info('Clientes encontrados')
 

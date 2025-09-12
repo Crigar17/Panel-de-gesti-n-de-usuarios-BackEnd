@@ -13,7 +13,7 @@ const generateToken = (payload) => {
 const verifyToken = (token) => {
     const payload = jwt.verify(
         token,
-        process.env.JWT
+        process.env.JWT_SECRET
     )
 
     return payload

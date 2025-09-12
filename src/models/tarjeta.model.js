@@ -13,7 +13,10 @@ tipoTarjeta: {
     enum: ["crédito", "débito"], 
     required: true 
 },
-
+cliente:{
+    type: mongoose.Schema.ObjectId,
+    ref: "cliente"
+},
 limiteCredito: { 
     type: Number, 
     default: 0 
@@ -30,6 +33,6 @@ estadoTarjeta: {
     default: "activa",
 },
 });
-const tarjetaModel = mongoose.model("Tarjeta", tarjetaSchema);
+const tarjetaModel = mongoose.model("tarjeta", tarjetaSchema);
 
 module.exports= tarjetaModel
